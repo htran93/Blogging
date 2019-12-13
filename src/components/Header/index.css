@@ -1,0 +1,35 @@
+.header {
+  background-color: #333333;
+  padding: 0 30px;
+}
+.header .logo {
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  padding-top: 8px;
+}
+.header .logo a {
+  text-decoration: none;
+  color: white;
+}
+.header-items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 100px;
+  overflow: hidden;
+}
+.header-items .item {
+  float: left;
+}
+.header-items .selected,
+.header-items a:hover {
+  background-color: #111111;
+}
+.header-items a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}

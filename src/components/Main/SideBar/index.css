@@ -1,0 +1,21 @@
+.sidebar {
+  float: left;
+  width: 15%;
+  background-color: gray;
+  opacity: 0.9;
+}
+.sidebar .item {
+  list-style-type: none;
+}
+
+.sidebar .item a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+}
+
+.sidebar .item a:hover {
+  background-color: #111111;
+}
