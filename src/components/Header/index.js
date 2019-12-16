@@ -1,6 +1,7 @@
 import React from "react";
 import "./index.css";
 import { Link } from "react-router-dom";
+import Clock from "./Clock";
 
 const Header = () => {
   return (
@@ -22,6 +23,7 @@ const Header = () => {
           <Link to="/posts">Posts</Link>
         </li>
       </ul>
+      <Clock />
     </div>
   );
 };

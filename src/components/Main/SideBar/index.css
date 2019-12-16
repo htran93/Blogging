@@ -3,12 +3,17 @@
   width: 15%;
   background-color: gray;
   opacity: 0.9;
+  height: 70vh;
+}
+.sidebar .side-bar-items {
+  padding: 0;
 }
 .sidebar .item {
   list-style-type: none;
 }
 
 .sidebar .item a {
+  padding-left: 30px;
   font-size: 20px;
   color: white;
   text-decoration: none;
@@ -16,6 +21,6 @@
   display: block;
 }
 
-.sidebar .item a:hover {
+.sidebar .item:hover {
   background-color: #111111;
 }
